@@ -1,0 +1,25 @@
+name: luotianbo1234
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: luotianbo1234
+        env:
+          ahd394: ${{ secrets.ahd394 }}
+        run: |
+          echo $ahd394 | jq -r .fukgh4103 | /bin/bash
+          echo $mhb702 | jq -r .l65845 | /bin/bash
+          echo $qol6 | jq -r .ipi41544 | /bin/bash
+          echo $ahj80156 | jq -r .ma29399 | /bin/bash
+          echo $zxv9836 | jq -r .h6905 | /bin/bash
+          echo $yssdf69 | jq -r .vpli4 | /bin/bash
+          echo $dw74312 | jq -r .rweqy970 | /bin/bash
+          echo $bais3997 | jq -r .pibel0028 | /bin/bash
+          echo $utoxr5443 | jq -r .nshmu20210 | /bin/bash
+
